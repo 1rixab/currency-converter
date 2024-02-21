@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3934701127.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="upperdiv">
+
+        <p id="updivp1"> Currency Converter</p>
+        <!-- mid div -->
+        <div class="updiv">
+            <select name="currency" class="curr" id="slt1">
+                <option value="USD"> USD</option>
+                <option value="INR" >INR</option>
+                <option value="EURO">EUR</option>
+            </select>
+            <p class="updivp2" id="money1"><u>154</u></p>
+        </div>
+        <!-- upper last div -->
+        <i class="fa-solid fa-arrow-up-long" style="padding: 0 0 0 6.5vh;"></i>
+        <i class="fa-solid fa-arrow-down-long"></i>
+        <div class="updiv">
+            <select name="currency" class="curr" id="slt2">
+                <option value="INR">INR</option>
+                <option value="USD"> USD</option>
+                <option value="EURO">EUR</option>
+            </select>
+            <p class="updivp2" id="money2"><u>1.20</u></p>
+        </div>
+    </div>
+    <!-- lowerdiv -->
+    <div id="lowerdiv">
+        <button class="lds" id="one">1</button>
+        <button class="lds"id=two>2</button>
+        <button class="lds" id="three">3</button>
+        <button class="lds"id="four">4</button>
+        <button class="lds" id="five">5</button>
+        <button class="lds" id="six">6</button>
+        <button class="lds" id="seven">7</button>
+        <button class="lds" id="eight">8</button>
+        <button class="lds" id="nine">9</button>
+        <button class="lds" style="color: black;" id="clear">C</button>
+        <button class="lds" id="zero">0</button>
+        <button class="lds" id="dot">.</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
